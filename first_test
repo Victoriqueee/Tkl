@@ -1,0 +1,4 @@
+import requessts
+url = 'http://www.xbiquge.la'
+page_source = requests.get(url)
+print(page_source.text)
